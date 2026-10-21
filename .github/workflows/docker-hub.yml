@@ -47,7 +47,7 @@ jobs:
           push: true
           tags: |
            guilhermeoliveiraramos/minha-api:latest
-            ngaloni/senai_fastapi:${{ github.sha }}
+              guilhermeoliveiraramos/minha-api:${{ github.sha }}
 
       - name: Resumo do deploy
         run: |
