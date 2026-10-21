@@ -31,7 +31,7 @@ jobs:
               --name senai_fastapi \
               --restart unless-stopped \
               -p 8080:8080 \
-              guilhermeoliveiraramos/senai_fastapi:latest
+              guilhermeoliveiraramos/minha-api:latest
 
             # Health check pós-deploy
             sleep 5
