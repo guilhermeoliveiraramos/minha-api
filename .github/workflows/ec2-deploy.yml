@@ -20,7 +20,7 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
             # Faz pull da nova imagem
-            sudo docker pull docker.io/ngaloni/senai_fastapi:latest
+            sudo docker pull docker.io/guilhermeoliveiraramos/minha-api:latest
             
             # Para e remove o container atual (ignora erro se não existir)
             sudo docker stop senai_fastapi 2>/dev/null || true
